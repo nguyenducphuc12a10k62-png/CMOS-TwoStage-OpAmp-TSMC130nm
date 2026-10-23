@@ -1,0 +1,244 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "7.1.1.187.isr11"
+"date" "3:52:50 AM, Fri Oct 23, 2026"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unsorted"
+"tolerance.relative" 0.00100000
+TYPE
+"subckt" STRUCT(
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"rpodl_m" "subckt" (
+""
+""
+)
+"spiral_std" "subckt" (
+""
+""
+)
+"xjvar" "subckt" (
+""
+""
+)
+"rnods" "subckt" (
+""
+""
+)
+"rnwsti" "subckt" (
+""
+""
+)
+"rnpolyl_dis" "subckt" (
+""
+""
+)
+"moscap_rf25" "subckt" (
+""
+""
+)
+"mimcap_um" "subckt" (
+""
+""
+)
+"rppolys_rf" "subckt" (
+""
+""
+)
+"pmos_rf25" "subckt" (
+""
+""
+)
+"rpodwo" "subckt" (
+""
+""
+)
+"rnpolys" "subckt" (
+""
+""
+)
+"spiral_sym" "subckt" (
+""
+""
+)
+"rppolys" "subckt" (
+""
+""
+)
+"rm1s" "subckt" (
+""
+""
+)
+"rm2_7l" "subckt" (
+""
+""
+)
+"nmoscap_25" "subckt" (
+""
+""
+)
+"nmoscap" "subckt" (
+""
+""
+)
+"rppolywo_dis" "subckt" (
+""
+""
+)
+"rnods_m" "subckt" (
+""
+""
+)
+"rppolyhri" "subckt" (
+""
+""
+)
+"rm2_7w" "subckt" (
+""
+""
+)
+"pmos_rf" "subckt" (
+""
+""
+)
+"rnodl_m" "subckt" (
+""
+""
+)
+"rppolyl_rf" "subckt" (
+""
+""
+)
+"rm1w" "subckt" (
+""
+""
+)
+"rppolyhri_dis" "subckt" (
+""
+""
+)
+"rppolywo_rf" "subckt" (
+""
+""
+)
+"rnpolywo" "subckt" (
+""
+""
+)
+"rnodwo_m" "subckt" (
+""
+""
+)
+"rnodwo" "subckt" (
+""
+""
+)
+"rpods" "subckt" (
+""
+""
+)
+"nmos_rf" "subckt" (
+""
+""
+)
+"rm2_7s" "subckt" (
+""
+""
+)
+"moscap_rf" "subckt" (
+""
+""
+)
+"rm1l" "subckt" (
+""
+""
+)
+"rpodwo_m" "subckt" (
+""
+""
+)
+"rm8w" "subckt" (
+""
+""
+)
+"rppolywo" "subckt" (
+""
+""
+)
+"rnpolywo_dis" "subckt" (
+""
+""
+)
+"rppolyl" "subckt" (
+""
+""
+)
+"nmos_rf25" "subckt" (
+""
+""
+)
+"rm8l" "subckt" (
+""
+""
+)
+"rnpolys_dis" "subckt" (
+""
+""
+)
+"rppolyhri_rf" "subckt" (
+""
+""
+)
+"rppolys_dis" "subckt" (
+""
+""
+)
+"rnwod_m" "subckt" (
+""
+""
+)
+"rnodl" "subckt" (
+""
+""
+)
+"rnpolyl" "subckt" (
+""
+""
+)
+"mimcap" "subckt" (
+""
+""
+)
+"rpodl" "subckt" (
+""
+""
+)
+"rm8s" "subckt" (
+""
+""
+)
+"rppolyl_dis" "subckt" (
+""
+""
+)
+"rpods_m" "subckt" (
+""
+""
+)
+"rmu" "subckt" (
+""
+""
+)
+"rnwod" "subckt" (
+""
+""
+)
+END

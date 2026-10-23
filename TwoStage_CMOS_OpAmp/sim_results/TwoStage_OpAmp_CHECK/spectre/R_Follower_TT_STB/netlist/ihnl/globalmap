@@ -1,0 +1,9 @@
+CADENCE IHNL01070
+$model
+TwoStage_OpAmp_130nm/TwoStage_OpAmp_CHECK/schematic TwoStage_OpAmp_CHECK
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+$endparam

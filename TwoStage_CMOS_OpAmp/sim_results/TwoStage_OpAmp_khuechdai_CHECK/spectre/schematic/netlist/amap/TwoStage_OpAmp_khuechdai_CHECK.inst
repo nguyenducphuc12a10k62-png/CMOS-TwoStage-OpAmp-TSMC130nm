@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"M6n M4n M1n M0n" "tsmc13rf_nmos2v_spectre"
+"M5n M3n M2n" "tsmc13rf_pmos2v_spectre"
+"V4n V3n V2n" "analogLib_vdc_spectre"
+"C1n C0n" "analogLib_cap_spectre"
+"IPRB0n" "analogLib_iprobe_spectre"
+"V0n" "analogLib_vsin_spectre"
+"R1n R0n" "analogLib_res_spectre"

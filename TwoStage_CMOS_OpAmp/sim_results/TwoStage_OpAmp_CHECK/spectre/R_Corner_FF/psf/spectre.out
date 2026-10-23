@@ -1,0 +1,83 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 7.1.1.187.isr11 32bit -- 18 Aug 2009
+Copyright (C) 1989-2009 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: root   Host: localhost.localdomain   HostID: 7F0100   PID: 24479
+Memory  available: 73.6501 MB  physical: 1.9853 GB
+CPU(1 of 2):  CPU 0  12th Gen Intel(R) Core(TM) i5-12450H  2496.010MHz
+
+Simulating `input.scs' on localhost.localdomain at 4:23:46 AM, Fri Oct 23, 2026 (process id: 24479).
+Environment variable:
+    SPECTRE_DEFAULTS=-E
+Command line:
+    /usr/local/IC614/MMSIM/tools.lnx86/spectre/bin/32bit/spectre  \
+        input.scs +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre15_18680_14 -format sst2 -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5
+spectre pid = 24479
+
+Loading /usr/local/IC614/MMSIM/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
+Loading /usr/local/IC614/MMSIM/tools.lnx86/cmi/lib/5.0/libphilips_sh.so ...
+Loading /usr/local/IC614/MMSIM/tools.lnx86/cmi/lib/5.0/libsparam_sh.so ...
+Loading /usr/local/IC614/MMSIM/tools.lnx86/cmi/lib/5.0/libstmodels_sh.so ...
+
+Circuit inventory:
+              nodes 8
+            bsim3v3 7     
+          capacitor 2     
+             iprobe 1     
+            vsource 3     
+
+Time for parsing: CPU = 107.983 ms, elapsed = 143.982 ms.
+Time accumulated: CPU = 114.981 ms, elapsed = 144.451 ms.
+Peak virtual memory used = 556 Mbytes.
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre15_18680_14, ).
+
+************************************************
+Stability Analysis `stb': freq = (1 Hz -> 1 GHz)
+************************************************
+    stb: freq = 1.698 Hz    (2.56 %), step = 38.66 mHz    (111 m%)
+    stb: freq = 4.786 Hz    (7.56 %), step = 108.9 mHz    (111 m%)
+    stb: freq = 13.49 Hz    (12.6 %), step = 307.1 mHz    (111 m%)
+    stb: freq = 38.02 Hz    (17.6 %), step = 865.4 mHz    (111 m%)
+    stb: freq = 107.2 Hz    (22.6 %), step = 2.439 Hz     (111 m%)
+    stb: freq = 302 Hz      (27.6 %), step = 6.874 Hz     (111 m%)
+    stb: freq = 851.1 Hz    (32.6 %), step = 19.37 Hz     (111 m%)
+    stb: freq = 2.399 kHz   (37.6 %), step = 54.6 Hz      (111 m%)
+    stb: freq = 6.761 kHz   (42.6 %), step = 153.9 Hz     (111 m%)
+    stb: freq = 19.05 kHz   (47.6 %), step = 433.7 Hz     (111 m%)
+    stb: freq = 53.7 kHz    (52.6 %), step = 1.222 kHz    (111 m%)
+    stb: freq = 151.4 kHz   (57.6 %), step = 3.445 kHz    (111 m%)
+    stb: freq = 426.6 kHz   (62.6 %), step = 9.71 kHz     (111 m%)
+    stb: freq = 1.202 MHz   (67.6 %), step = 27.37 kHz    (111 m%)
+    stb: freq = 3.388 MHz   (72.6 %), step = 77.13 kHz    (111 m%)
+    stb: freq = 9.55 MHz    (77.6 %), step = 217.4 kHz    (111 m%)
+    stb: freq = 26.92 MHz   (82.6 %), step = 612.7 kHz    (111 m%)
+    stb: freq = 75.86 MHz   (87.6 %), step = 1.727 MHz    (111 m%)
+    stb: freq = 213.8 MHz   (92.6 %), step = 4.867 MHz    (111 m%)
+    stb: freq = 602.6 MHz   (97.6 %), step = 13.72 MHz    (111 m%)
+Gain margin = 21.1134 dB at frequency = 75.5617 MHz.
+Phase margin = 73.7242 Deg at frequency = 10.0841 MHz.
+Accumulated DC solution time = 0 s.
+Intrinsic stb analysis time =              50 ms.
+Total time required for stb analysis `stb': CPU = 55.991 ms, elapsed = 58.4781 ms.
+Time accumulated: CPU = 171.972 ms, elapsed = 1.30048 s.
+Peak virtual memory used = 556 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.

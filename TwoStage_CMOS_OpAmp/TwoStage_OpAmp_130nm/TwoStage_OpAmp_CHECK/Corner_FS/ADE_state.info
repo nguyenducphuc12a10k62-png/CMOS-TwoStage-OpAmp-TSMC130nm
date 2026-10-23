@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("TwoStage_OpAmp_130nm" "TwoStage_OpAmp_CHECK" "schematic" "spectre")
+descriptionText = "Process Corner FS - Fast NMOS Slow PMOS\nTemperature 27C, VDD 1.8V, Vbias 0.771V\nSTB 1Hz-1GHz, Probe /IPRB0\nModel /home/eslam/cadence_corners/opamp_FS.scs"

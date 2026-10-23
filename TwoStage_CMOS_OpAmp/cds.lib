@@ -1,0 +1,2 @@
+INCLUDE /root/cds.lib
+DEFINE TwoStage_OpAmp_130nm /home/eslam/Analog_IC/TwoStage_CMOS_OpAmp/TwoStage_OpAmp_130nm

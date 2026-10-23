@@ -1,0 +1,31 @@
+simulator( 'spectre )
+design(	 "/home/eslam/Analog_IC/TwoStage_CMOS_OpAmp/sim_results/TwoStage_OpAmp_khuechdai_CHECK/spectre/schematic/netlist/netlist")
+resultsDir( "/home/eslam/Analog_IC/TwoStage_CMOS_OpAmp/sim_results/TwoStage_OpAmp_khuechdai_CHECK/spectre/schematic" )
+modelFile( 
+    '("/usr/local/IC614/tsmc13/models/RF_12_25_FSG.scs" "")
+)
+analysis('tran ?stop "500u"  ?maxstep "0.1u"  )
+envOption(
+	'analysisOrder  list("ac" "tran") 
+)
+save( 'v "/net13" "/Out2" )
+temp( 27 ) 
+run()
+selectResult( 'tran )
+plot(getData("/net13") getData("/Out2") )
+modelFile( 
+    '("/usr/local/IC614/tsmc13/models/RF_12_25_FSG.scs" "")
+)
+analysis('ac ?start "1"  ?stop "100M"  ?dec "100"  )
+envOption(
+	'analysisOrder  list("ac" "tran") 
+)
+run()
+selectResult( 'ac )
+plot(getData("/net13") getData("/Out2") )
+modelFile( 
+    '("/usr/local/IC614/tsmc13/models/RF_12_25_FSG.scs" "")
+)
+run()
+selectResult( 'ac )
+plot(getData("/net13") getData("/Out2") )

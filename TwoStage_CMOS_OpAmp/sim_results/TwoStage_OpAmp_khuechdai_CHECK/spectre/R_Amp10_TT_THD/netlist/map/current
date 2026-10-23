@@ -1,0 +1,26 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "TwoStage_OpAmp_khuechdai_CHECK"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/eslam/Analog_IC/TwoStage_CMOS_OpAmp/sim_results/TwoStage_OpAmp_khuechdai_CHECK/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+( "gnd!" "0" )
+ )
+( inst
+ )
+( model
+( "TwoStage_OpAmp_130nm/TwoStage_OpAmp_khuechdai_CHECK/schematic" "TwoStage_OpAmp_khuechdai_CHECK" )
+ )
+( term
+ )
+( param
+ )
+( "TwoStage_OpAmp_khuechdai_CHECK" "ihnl/cds0/map" )
+ )

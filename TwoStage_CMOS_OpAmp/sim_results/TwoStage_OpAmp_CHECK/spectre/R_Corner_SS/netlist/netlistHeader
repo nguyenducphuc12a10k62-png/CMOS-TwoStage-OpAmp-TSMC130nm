@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Oct 23 00:16:59 2026
+// Design library name: TwoStage_OpAmp_130nm
+// Design cell name: TwoStage_OpAmp_CHECK
+// Design view name: schematic
+simulator lang=spectre
+global 0

@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("TwoStage_OpAmp_130nm" "TwoStage_OpAmp_khuechdai_CHECK" "schematic" "spectre")
+descriptionText = "Non-Inverting Amplifier 10x\nTT 27C - Transient Analysis\nVin 10mV amplitude, 10kHz, Offset 1V\nStop 500us, Maxstep 0.1us\nMeasured Gain 9.982x"

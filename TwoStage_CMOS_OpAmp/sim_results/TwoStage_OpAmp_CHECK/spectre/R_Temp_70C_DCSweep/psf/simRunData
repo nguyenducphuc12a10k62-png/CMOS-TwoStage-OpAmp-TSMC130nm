@@ -1,0 +1,11 @@
+HEADER
+"PSFversion" "1.00"
+"PSFversion" "1.00"
+"design" "(\"TwoStage_OpAmp_130nm\" \"TwoStage_OpAmp_CHECK\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "70.0"
+"host" ""
+"date" "Oct 23 04:15:51 2026"
+"title" "TT 70C - DC Sweep Vin-Vout Error"
+"analysisList" "()"
+END

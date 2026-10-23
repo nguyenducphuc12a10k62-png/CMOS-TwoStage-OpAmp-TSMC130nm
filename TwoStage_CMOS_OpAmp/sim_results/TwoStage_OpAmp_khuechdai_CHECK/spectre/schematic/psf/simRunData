@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"TwoStage_OpAmp_130nm\" \"TwoStage_OpAmp_khuechdai_CHECK\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Oct 23 05:05:43 2026"
+"title" ""
+"analysisList" "()"
+END

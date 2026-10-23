@@ -1,0 +1,11 @@
+HEADER
+"PSFversion" "1.00"
+"PSFversion" "1.00"
+"design" "(\"TwoStage_OpAmp_130nm\" \"TwoStage_OpAmp_CHECK\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Oct 23 03:52:48 2026"
+"title" "TT 27C - DC Sweep Vin 0.7V to 1.3V"
+"analysisList" "()"
+END

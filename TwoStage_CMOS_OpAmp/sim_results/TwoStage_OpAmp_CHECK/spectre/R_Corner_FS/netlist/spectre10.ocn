@@ -1,0 +1,13 @@
+simulator( 'spectre )
+design(	 "/home/eslam/Analog_IC/TwoStage_CMOS_OpAmp/sim_results/TwoStage_OpAmp_CHECK/spectre/schematic/netlist/netlist")
+resultsDir( "/home/eslam/Analog_IC/TwoStage_CMOS_OpAmp/sim_results/TwoStage_OpAmp_CHECK/spectre/schematic" )
+modelFile( 
+    '("/usr/local/IC614/tsmc13/models/RF_12_25_FSG.scs" "")
+)
+analysis('stb ?start "1"  ?stop "1e9"  ?dec "100"  
+		?probe "/IPRB0"  )
+envOption(
+	'analysisOrder  list("stb") 
+)
+temp( 27 ) 
+run()

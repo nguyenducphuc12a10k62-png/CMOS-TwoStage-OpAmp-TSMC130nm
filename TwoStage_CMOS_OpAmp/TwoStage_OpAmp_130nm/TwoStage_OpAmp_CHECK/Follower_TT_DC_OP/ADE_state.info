@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("TwoStage_OpAmp_130nm" "TwoStage_OpAmp_CHECK" "schematic" "spectre")
+descriptionText = "Voltage Follower - TT 27C - DC Operating Point\nVin=1V VDD=1.8V Vbias=0.771V"

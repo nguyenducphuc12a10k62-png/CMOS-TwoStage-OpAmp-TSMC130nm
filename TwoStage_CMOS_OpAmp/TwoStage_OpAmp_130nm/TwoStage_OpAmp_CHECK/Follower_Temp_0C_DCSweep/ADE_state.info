@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("TwoStage_OpAmp_130nm" "TwoStage_OpAmp_CHECK" "schematic" "spectre")
+descriptionText = "Voltage Follower - Temperature Analysis 0C\nTT Process, VDD=1.8V, Vbias=0.771V\nDC Sweep: Vin from 0.7V to 1.3V, Step 0.01V\nMaximum DC Error: 2.914mV"

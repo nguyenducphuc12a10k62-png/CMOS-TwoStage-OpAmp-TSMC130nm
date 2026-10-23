@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("TwoStage_OpAmp_130nm" "TwoStage_OpAmp_CHECK" "schematic" "spectre")
+descriptionText = "Voltage Follower - TT 27C\nTransient Slew Rate Test\nVin pulse 0.7V to 1.3V, period 10us\nStop 20us, maxstep 1ns\n20-80% rise and fall slew-rate measurement"

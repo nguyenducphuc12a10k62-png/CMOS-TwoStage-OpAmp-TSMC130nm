@@ -1,0 +1,51 @@
+// Generated for: spectre
+// Generated on: Oct 23 04:36:47 2026
+// Design library name: TwoStage_OpAmp_130nm
+// Design cell name: TwoStage_OpAmp_khuechdai_CHECK
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/usr/local/IC614/tsmc13/models/RF_12_25_FSG.scs"
+
+// Library name: TwoStage_OpAmp_130nm
+// Cell name: TwoStage_OpAmp_khuechdai_CHECK
+// View name: schematic
+M6 (Out2 net16 0 0) nch_25 w=10u l=400n as=3.4p ad=3.4p ps=20.68u \
+        pd=20.68u sa=340n sb=340n nrd=19m nrs=19m m=(1)*(1)
+M4 (net3 net16 0 0) nch_25 w=2u l=400n as=680f ad=680f ps=4.68u pd=4.68u \
+        sa=340n sb=340n nrd=95m nrs=95m m=(1)*(1)
+M1 (OUT1 net13 net3 0) nch_25 w=1u l=400n as=340f ad=340f ps=2.68u \
+        pd=2.68u sa=340n sb=340n nrd=190m nrs=190m m=(1)*(1)
+M0 (net11 net014 net3 0) nch_25 w=1u l=400n as=340f ad=340f ps=2.68u \
+        pd=2.68u sa=340n sb=340n nrd=190m nrs=190m m=(1)*(1)
+M5 (Out2 OUT1 net2 net2) pch_25 w=25u l=400n as=8.5p ad=8.5p ps=50.68u \
+        pd=50.68u sa=340n sb=340n nrd=7.6m nrs=7.6m m=(1)*(1)
+M3 (OUT1 net11 net2 net2) pch_25 w=2.5u l=400n as=850f ad=850f ps=5.68u \
+        pd=5.68u sa=340n sb=340n nrd=76m nrs=76m m=(1)*(1)
+M2 (net11 net11 net2 net2) pch_25 w=2.5u l=400n as=850f ad=850f ps=5.68u \
+        pd=5.68u sa=340n sb=340n nrd=76m nrs=76m m=(1)*(1)
+V4 (net036 0) vsource dc=1 type=dc
+V3 (net2 0) vsource dc=1.8 mag=0 type=dc
+V2 (net16 0) vsource dc=771m mag=0 type=dc
+C1 (Out2 0) capacitor c=5p
+C0 (OUT1 Out2) capacitor c=2p
+IPRB0 (net014 net028) iprobe
+V0 (net13 0) vsource dc=1 mag=1 phase=0 type=sine sinedc=1 ampl=10m \
+        freq=10K
+R1 (net014 net036) resistor r=10K
+R0 (Out2 net028) resistor r=90K
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf 
+tran tran stop=1.2m maxstep=0.1u write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts  where=rawfile
+save net13 Out2 
+saveOptions options save=allpub

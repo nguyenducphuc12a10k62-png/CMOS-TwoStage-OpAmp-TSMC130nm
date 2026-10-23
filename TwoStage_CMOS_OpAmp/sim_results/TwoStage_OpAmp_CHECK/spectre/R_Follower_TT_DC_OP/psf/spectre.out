@@ -1,0 +1,69 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 7.1.1.187.isr11 32bit -- 18 Aug 2009
+Copyright (C) 1989-2009 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: root   Host: localhost.localdomain   HostID: 7F0100   PID: 22138
+Memory  available: 111.2350 MB  physical: 1.9853 GB
+CPU(1 of 2):  CPU 0  12th Gen Intel(R) Core(TM) i5-12450H  2496.010MHz
+
+Simulating `input.scs' on localhost.localdomain at 3:50:23 AM, Fri Oct 23, 2026 (process id: 22138).
+Environment variable:
+    SPECTRE_DEFAULTS=-E
+Command line:
+    /usr/local/IC614/MMSIM/tools.lnx86/spectre/bin/32bit/spectre  \
+        input.scs +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre15_18680_6 -format sst2 -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5
+spectre pid = 22138
+
+Loading /usr/local/IC614/MMSIM/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
+Loading /usr/local/IC614/MMSIM/tools.lnx86/cmi/lib/5.0/libphilips_sh.so ...
+Loading /usr/local/IC614/MMSIM/tools.lnx86/cmi/lib/5.0/libsparam_sh.so ...
+Loading /usr/local/IC614/MMSIM/tools.lnx86/cmi/lib/5.0/libstmodels_sh.so ...
+
+Circuit inventory:
+              nodes 8
+            bsim3v3 7     
+          capacitor 2     
+             iprobe 1     
+            vsource 3     
+
+Time for parsing: CPU = 94.985 ms, elapsed = 123.15 ms.
+Time accumulated: CPU = 100.983 ms, elapsed = 123.453 ms.
+Peak virtual memory used = 556 Mbytes.
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre15_18680_6, ).
+
+******************
+DC Analysis `dcOp'
+******************
+Important parameter values:
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmin = 1 pS
+Convergence achieved in 14 iterations.
+Total time required for dc analysis `dcOp': CPU = 2 ms, elapsed = 2.19202 ms.
+Time accumulated: CPU = 104.983 ms, elapsed = 1.3061 s.
+Peak virtual memory used = 556 Mbytes.
+
+dcOpInfo: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.

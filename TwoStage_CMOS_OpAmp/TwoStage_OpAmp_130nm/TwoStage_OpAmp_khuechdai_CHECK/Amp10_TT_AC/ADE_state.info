@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("TwoStage_OpAmp_130nm" "TwoStage_OpAmp_khuechdai_CHECK" "schematic" "spectre")
+descriptionText = "Non-Inverting Amplifier 10x - AC Analysis\nTT Process, Temperature 27C\nVDD=1.8V, Vbias=0.771V, Vref=1V\nRf=90k, Rg=10k\nAC Sweep 1Hz to 100MHz, 100 points/decade\nGain at 10kHz=19.91dB\nBandwidth=700.3kHz\nPhase at 10kHz=-0.8412deg"
